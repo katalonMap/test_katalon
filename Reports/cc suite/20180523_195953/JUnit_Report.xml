@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="cc suite" time="0" tests="0" failures="0" errors="1">
+   <testsuite name="cc suite" tests="0" failures="0" errors="1" time="0" timestamp="2018-05-23 19:59:55" hostname="HJC250$ - windows10.microdone.cn" id="Test Suites/cc suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\jccf\\git\\test_katalon\\Reports\\cc suite\\20180523_195953"/>
+         <property name="logFiles" value="C:\\Users\\jccf\\git\\test_katalon\\Reports\\cc suite\\20180523_195953\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="HJC250$ - windows10.microdone.cn"/>
+         <property name="hostAddress" value="10.17.11.85"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+      </properties>
+      <testcase name="Test Cases/cc" classname="Test Cases/cc" status="ERROR">
+         <error type="ERROR" message="Test Cases/cc FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/jccf/git/test_katalon/Scripts/cc/Script1527076311713.groovy: 20: unable to resolve class internal.GlobalVariable
+ @ line 20, column 1.
+   import internal.GlobalVariable as GlobalVariable
+   ^
+
+1 error
+"/>
+         <system-out><![CDATA[2018-05-23 19:59:55 - [TEST_CASE][ERROR] - Test Cases/cc: Test Cases/cc FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/jccf/git/test_katalon/Scripts/cc/Script1527076311713.groovy: 20: unable to resolve class internal.GlobalVariable
+ @ line 20, column 1.
+   import internal.GlobalVariable as GlobalVariable
+   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[2018-05-23 19:59:55 - [TEST_CASE][ERROR] - Test Cases/cc: Test Cases/cc FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/jccf/git/test_katalon/Scripts/cc/Script1527076311713.groovy: 20: unable to resolve class internal.GlobalVariable
+ @ line 20, column 1.
+   import internal.GlobalVariable as GlobalVariable
+   ^
+
+1 error]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-23 19:59:55 - [TEST_SUITE][ERROR] - cc suite: Test Cases/cc FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/jccf/git/test_katalon/Scripts/cc/Script1527076311713.groovy: 20: unable to resolve class internal.GlobalVariable
+ @ line 20, column 1.
+   import internal.GlobalVariable as GlobalVariable
+   ^
+
+1 error]]></system-out>
+      <system-err><![CDATA[2018-05-23 19:59:55 - [TEST_SUITE][ERROR] - cc suite: Test Cases/cc FAILED because (of) org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/jccf/git/test_katalon/Scripts/cc/Script1527076311713.groovy: 20: unable to resolve class internal.GlobalVariable
+ @ line 20, column 1.
+   import internal.GlobalVariable as GlobalVariable
+   ^
+
+1 error]]></system-err>
+   </testsuite>
+</testsuites>

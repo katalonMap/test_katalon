@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="cc suite" time="1" tests="0" failures="1" errors="0">
+   <testsuite name="cc suite" tests="0" failures="1" errors="0" time="1" timestamp="2018-05-23 19:58:11" hostname="HJC250$ - windows10.microdone.cn" id="Test Suites/cc suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\jccf\\git\\test_katalon\\Reports\\cc suite\\20180523_195810"/>
+         <property name="logFiles" value="C:\\Users\\jccf\\git\\test_katalon\\Reports\\cc suite\\20180523_195810\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="HJC250$ - windows10.microdone.cn"/>
+         <property name="hostAddress" value="10.17.11.85"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+      </properties>
+      <testcase name="Test Cases/cc" classname="Test Cases/cc" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: 'www.baidu.com' (Root cause: org.openqa.selenium.WebDriverException: The best matching driver provider org.openqa.selenium.ie.InternetExplorerDriver can't create a new driver instance for Capabilities [{}]
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'jc-PC', ip: '10.17.5.122', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '9.0.4'
+Driver info: driver.version: unknown
+Command duration or timeout: 66 milliseconds)"/>
+         <system-out><![CDATA[2018-05-23 19:58:11 - [TEST_CASE][FAILED] - Test Cases/cc: Test Cases/cc FAILED because (of) Unable to open browser with url: 'www.baidu.com' (Root cause: org.openqa.selenium.WebDriverException: The best matching driver provider org.openqa.selenium.ie.InternetExplorerDriver can't create a new driver instance for Capabilities [{}]
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'jc-PC', ip: '10.17.5.122', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '9.0.4'
+Driver info: driver.version: unknown
+Command duration or timeout: 66 milliseconds)
+
+2018-05-23 19:58:12 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: 'www.baidu.com' (Root cause: org.openqa.selenium.WebDriverException: The best matching driver provider org.openqa.selenium.ie.InternetExplorerDriver can't create a new driver instance for Capabilities [{}]
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'jc-PC', ip: '10.17.5.122', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '9.0.4'
+Driver info: driver.version: unknown
+Command duration or timeout: 66 milliseconds)
+
+2018-05-23 19:58:12 - [MESSAGE][FAILED] - Unable to open browser with url: 'www.baidu.com' (Root cause: org.openqa.selenium.WebDriverException: The best matching driver provider org.openqa.selenium.ie.InternetExplorerDriver can't create a new driver instance for Capabilities [{}]
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'jc-PC', ip: '10.17.5.122', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '9.0.4'
+Driver info: driver.version: unknown
+Command duration or timeout: 66 milliseconds)]]></system-out>
+         <system-err><![CDATA[2018-05-23 19:58:11 - [TEST_CASE][FAILED] - Test Cases/cc: Test Cases/cc FAILED because (of) Unable to open browser with url: 'www.baidu.com' (Root cause: org.openqa.selenium.WebDriverException: The best matching driver provider org.openqa.selenium.ie.InternetExplorerDriver can't create a new driver instance for Capabilities [{}]
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'jc-PC', ip: '10.17.5.122', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '9.0.4'
+Driver info: driver.version: unknown
+Command duration or timeout: 66 milliseconds)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-23 19:58:11 - [TEST_SUITE][FAILED] - cc suite: Test Cases/cc FAILED because (of) Unable to open browser with url: 'www.baidu.com' (Root cause: org.openqa.selenium.WebDriverException: The best matching driver provider org.openqa.selenium.ie.InternetExplorerDriver can't create a new driver instance for Capabilities [{}]
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'jc-PC', ip: '10.17.5.122', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '9.0.4'
+Driver info: driver.version: unknown
+Command duration or timeout: 66 milliseconds)]]></system-out>
+      <system-err><![CDATA[2018-05-23 19:58:11 - [TEST_SUITE][FAILED] - cc suite: Test Cases/cc FAILED because (of) Unable to open browser with url: 'www.baidu.com' (Root cause: org.openqa.selenium.WebDriverException: The best matching driver provider org.openqa.selenium.ie.InternetExplorerDriver can't create a new driver instance for Capabilities [{}]
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'jc-PC', ip: '10.17.5.122', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '9.0.4'
+Driver info: driver.version: unknown
+Command duration or timeout: 66 milliseconds)]]></system-err>
+   </testsuite>
+</testsuites>
