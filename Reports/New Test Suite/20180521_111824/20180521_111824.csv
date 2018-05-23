@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,Chrome 66.0.3359.170,,2018-05-21 11:18:25,2018-05-21 11:18:30,4.590s,PASSED
+,,,,,,
+Test Cases/New Test Case,Chrome 66.0.3359.170,,2018-05-21 11:18:25,2018-05-21 11:18:29,3.621s,PASSED
+openBrowser,Chrome 66.0.3359.170,,2018-05-21 11:18:25,2018-05-21 11:18:29,3.435s,PASSED
