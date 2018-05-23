@@ -1,4 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
-cc suite,,,2018-05-23 19:59:55,2018-05-23 19:59:56,0.855s,ERROR
-,,,,,,
-Test Cases/cc,,,2018-05-23 19:59:55,2018-05-23 19:59:55,0.425s,ERROR
